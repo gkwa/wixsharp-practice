@@ -1,3 +1,7 @@
 * Getting started 
 + https://wixsharp.codeplex.com/releases/view/617923
 
+* Wixsharp step by step guide
++ https://goo.gl/RoGsfM
+
+
