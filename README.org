@@ -5,6 +5,7 @@
 + https://goo.gl/RoGsfM
 
 #+BEGIN_SRC
-C:\Program Files\WixSharp.1.0.28.0\Samples\Install Files
+cd "C:\Program Files\WixSharp.1.0.28.0\Samples\Install Files"
+cmd /c Build.cmd
 #+END_SRC
 
