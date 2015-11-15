@@ -1,6 +1,3 @@
-
-
-
 WixSharp.dll:
 	cp '/c/Program Files/WixSharp.1.0.28.0/WixSharp.dll' .
 
