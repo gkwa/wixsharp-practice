@@ -4,4 +4,7 @@
 * Wixsharp step by step guide
 + https://goo.gl/RoGsfM
 
+#+BEGIN_SRC
+C:\Program Files\WixSharp.1.0.28.0\Samples\Install Files
+#+END_SRC
 
