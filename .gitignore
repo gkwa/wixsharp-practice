@@ -1,0 +1,19 @@
+/bin/
+/obj/
+/wix/
+/WixSharp.dll
+/cscs.exe
+/.vs/
+
+/dist/
+/sbxcam_ndi.7z
+
+# https://docs.nuget.org/consume/package-restore
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config

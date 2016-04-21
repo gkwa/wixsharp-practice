@@ -1,11 +1,23 @@
-* Getting started 
-+ https://wixsharp.codeplex.com/releases/view/617923
+* To get this running till I can finish the below TODOs
 
-* Wixsharp step by step guide
-+ https://goo.gl/RoGsfM
+taskkill /F /IM devenv.exe # Close Visual studio
+git fetch
+git reset --hard @{upstream}
+make clean
+git clean -dfx
+make dist
+cygstart *.sln
+cygstart ConsoleApplication1.sln
+# rebuild msi with:
+Ctrl-Shift-B
 
-#+BEGIN_SRC
-cd "C:\Program Files\WixSharp.1.0.28.0\Samples\Install Files"
-cmd /c Build.cmd
-#+END_SRC
+* TODO Add Streambox icon/fix gui
+* TODO Get rid of Make, use msbuild only
+* TODO wrap this in msbuild
 
+* TODO ADD pdf to this
+
+spaces in pdf name are hurting me plenty
+
+* TODO Remove static GUID
+* this flow sucks, but putting into msbuild will fix it
